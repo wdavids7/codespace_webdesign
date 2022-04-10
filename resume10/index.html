@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Primary CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Secondary CSS -->
+    <!-- <link rel="stylesheet" href="css/portfolio.css" /> -->
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon Links -->
+    <script
+      src="https://kit.fontawesome.com/a99a1dce0d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>My Resume</title>
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-dark bg-dark fixed-top bgcolor">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/portfolio.html" target="_blank"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about-me"
+                  >About me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#experience"
+                  >Experience</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#skills"
+                  >Skills</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#education"
+                  >Education</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#form"
+                  >Contact me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="/portfolio.html"
+                  target="_blank"
+                  >My Portfolio</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Banner image -->
+    <div id="banner-img" class="banner-img">
+      <div
+        class="banner-image w-100 d-flex justify-content-center align-items center"
+      >
+        <div class="content text-center">
+          <h1 class="text-white display-4 fw-bold">I'm Warda.</h1>
+          <p class="text-white lead text-uppercase fw-bold fs-4 pb-5">
+            A Software Developer.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Banner image end -->
+
+    <!-- About me start -->
+    <section id="about-me">
+      <div class="container-fluid text-center pt-5">
+        <h2 class="fs-1 pb-5">About me.</h2>
+        <picture>
+          <source media="(max-width: 990px)" srcset="images/pp-img.png" />
+          <img
+            src="/images/pp-img.png"
+            width="250px"
+            class="img-fluid img-thumbnail round border-0 p-3"
+            alt="profile-picture"
+          />
+        </picture>
+
+        <div class="row">
+          <div class="col-md-6 mx-auto p-5">
+            <p class="about-me-intro">
+              Someone once said to me, there is no rule in life that states you
+              should pick one career and stick to it for the rest of your life.
+              So, I started taking different courses that interested me all the
+              while expanding my skills and gaining knowledge in multiple areas.
+              Education is an ever-learning process, and you can only get better
+              with consistency, repetition, and time. <br />
+              I’ve belonged to a hiking club since the early 2000’s but started
+              hiking as a child when my siblings dragged me along on their
+              hikes, it kinda stuck. Other career interests include occasional
+              video gamer player, self-proclaimed chef mastering in peanut
+              butter dishes and the collector of fruit and veg shaped plush
+              dolls.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About me end -->
+
+    <!-- Experience start -->
+    <section id="experience" class="experience">
+      <div class="container-timeline">
+        <div class="timeline mt-5">
+          <h2 class="fs-1 mt-3 text-center text text-white">My Experiences.</h2>
+          <ul>
+            <li>
+              <div class="timeline-content">
+                <h2 class="date">07/2012 - 03/2020</h2>
+                <h1>Installation Administrator at MMI (Momentum Corporate)</h1>
+                <p>
+                  Purpose of role: Accurate administrative function for the
+                  installation of New Business and Benefit Improvements,
+                  according to relevant service level agreements, onto the
+                  Momentum Corporate operating system. The purpose of which is
+                  to allow effective execution of retirement fund administration
+                  in line with business, legislative and industry requirements,
+                  thereby improving overall client experience.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h2 class="date">09/2011 - 06/2012</h2>
+                <h1>Termination Administrator at MMI (Momentum Corporate)</h1>
+                <p>
+                  Purpose of role: To provide an effective and efficient service
+                  to clients by receiving, evaluating, and responding to
+                  enquiries timeously.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h2 class="date">05/2008 - 08/2011</h2>
+                <h1>Data & Recon Administrator at MMI (Momentum Corporate)</h1>
+                <p>
+                  Purpose of role: Maintaining the integrity of Momentum’s
+                  membership and business partners data by accurately and
+                  timorously updating, correcting, and reconciling membership,
+                  premiums, client, broker, and service providers data through
+                  the various database programs.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h2 class="date">05/2007 - 04/2008</h2>
+                <h1>Fund Administrator at MMI (Momentum Corporate)</h1>
+                <p>
+                  Purpose of role: Accurately process retirement & withdrawal
+                  funds member’s data and provide fund administration services
+                  within agreed service levels made with clients and internal
+                  and external stakeholders to ensure that client expectations
+                  are managed.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Experience end -->
+
+    <!-- Skills start -->
+    <section id="skills" class="skills">
+      <div class="container-skills">
+        <h2 class="fs-1 mt-5 pb-5 text-center">My Skills.</h2>
+        <div class="grid-a">
+          <div class="skills-bar-a">
+            <h3 class="fw-bold text-center mt-5 pt-5">Development</h3>
+            <ul>
+              <li class="html">HTML5</li>
+              <li class="css">CSS3</li>
+              <li class="php">PHP</li>
+              <li class="bootstrap">Bootstrap</li>
+              <li class="mysql">MySQL</li>
+              <li class="vue">Vue.js</li>
+              <li class="js">JavaScript</li>
+              <li class="ng">Angular</li>
+            </ul>
+          </div>
+
+          <div class="skills-bar-b">
+            <h3 class="fw-bold text-center mt-5 pt-5">Design</h3>
+            <ul>
+              <li class="ps">Adobe Photoshop</li>
+              <li class="ai">Adobe Illustrator</li>
+              <li class="lrc">Adobe Lightroom</li>
+              <li class="id">Adobe InDesign</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills end -->
+
+    <!-- Education start -->
+    <section id="education" class="education">
+      <h2 class="fs-1 mt-5 pb-5 text-center">My Education.</h2>
+      <div class="container my-5 d-grid gap-5 text-center">
+        <div class="p-5 border">
+          <img
+            class="card-imd-top"
+            src="icons/hacker.gif"
+            alt=""
+            width="50px"
+          />
+          <h4 class="card-title">CodeSpace Academy</h4>
+          <p class="card-text">Certificate: Software Development</p>
+          <p class="card-date">Feb 2022 - Current</p>
+        </div>
+
+        <div class="p-5 border">
+          <img
+            class="card-imd-top"
+            src="icons/crayons.gif"
+            alt=""
+            width="50px"
+          />
+          <h4 class="card-title">Studio7 School of Photography & Design</h4>
+          <p class="card-text">Certification: Photography & Graphic Design</p>
+          <p class="card-date">Jan 2020 - Dec 2020</p>
+        </div>
+
+        <div class="p-5 border">
+          <img
+            class="card-imd-top"
+            src="icons/signposts.gif"
+            alt=""
+            width="50px"
+          />
+          <h4 class="card-title">Cape Academy of Guiding Services</h4>
+          <p class="card-text">
+            Certification: Tourism (Cultural Site Guide NQF4)
+          </p>
+          <p class="card-date">Apr 2017 - Sep 2017</p>
+        </div>
+
+        <div class="p-5 border">
+          <img
+            class="card-imd-top"
+            src="icons/backpack.gif"
+            alt=""
+            width="50px"
+          />
+          <h4 class="card-title">
+            South African National Parks: Volunteer Ranger Program
+          </h4>
+          <p class="card-text">Certification: Conservation</p>
+          <p class="card-date">Apr 2017 - Jan 2018</p>
+        </div>
+
+        <div class="p-5 border">
+          <img
+            class="card-imd-top"
+            src="icons/notebook.gif"
+            alt=""
+            width="50px"
+          />
+          <h4 class="card-title">PST Presentation Software Training</h4>
+          <p class="card-text">Certification: MS Excel 2007 for Windows</p>
+          <p class="card-date">May 2011 - Aug 2011</p>
+        </div>
+
+        <div class="p-5 border">
+          <img
+            class="card-imd-top"
+            src="icons/university.gif"
+            alt=""
+            width="50px"
+          />
+          <h4 class="card-title">Rosebank College, Cape Town Campus</h4>
+          <p class="card-text">Diploma: Internet Engineering</p>
+          <p class="card-date">Jan 2005 - Dec 2007</p>
+        </div>
+
+        <div class="p-5 border">
+          <img
+            class="card-imd-top"
+            src="icons/mortarboard.gif"
+            alt=""
+            width="55px"
+          />
+          <h4 class="card-title">Rocklands High School</h4>
+          <p class="card-text">Graduated</p>
+          <p class="card-date">2002</p>
+        </div>
+      </div>
+    </section>
+    <!-- Education end -->
+
+    <!-- Contact me start -->
+    <section id="form" class="form">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="col-12">
+            <div class="container-form">
+              <form>
+                <div class="contact-me">
+                  <h2 class="fs-1 mt-5 text-center">Contact Me.</h2>
+                </div>
+
+                <div class="row">
+                  <div class="input-group">
+                    <input type="text" id="name" required />
+                    <label for="name"
+                      ><i class="fa-solid fa-user"></i> Your Name</label
+                    >
+                  </div>
+                  <div class="input-group">
+                    <input type="text" id="number" required />
+                    <label for="number"
+                      ><i class="fa-solid fa-phone"></i> Phone No.</label
+                    >
+                  </div>
+                </div>
+
+                <div class="input-group">
+                  <input type="email" id="email" required />
+                  <label for="email"
+                    ><i class="fa-solid fa-envelope"></i> Email address</label
+                  >
+                </div>
+                <div class="input-group">
+                  <textarea id="message" rows="8" required></textarea>
+                  <label for="message"
+                    ><i class="fa-solid fa-comments"></i> Your message</label
+                  >
+                </div>
+                <button type="submit" class="form-submit-button">
+                  SUBMIT <i class="fa-solid fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact me end -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+  <!-- Footer start -->
+  <footer id="footer" class="footer">
+    <div class="container-footer">
+      <a class="footer-link" href="https://www.linkedin.com/" target="_blank"
+        ><img src="/icons/linkedin_round.png" alt="linkedin" width="40px"
+      /></a>
+      <a class="footer-link" href="https://github.com/" target="_blank"
+        ><img src="/icons/github_round.png" alt="github" width="40px"
+      /></a>
+      <a class="footer-link" href="https://www.instagram.com/" target="_blank"
+        ><img src="/icons/instagram_round.png" alt="instagram" width="40px"
+      /></a>
+      <p class="copyright">© 2022 Warda Davids.</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+</html>

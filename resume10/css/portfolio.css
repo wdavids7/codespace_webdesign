@@ -1,0 +1,98 @@
+/* General start*/
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #40514e;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navbar start */
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-left: 10px;
+  color: rgb(255, 255, 255) !important;
+}
+.bgcolor {
+  background-color: transparent !important;
+}
+.nav-item .nav-link {
+  color: #66bfbf !important;
+  font-size: 1em;
+}
+.nav-item .nav-link:hover {
+  background-color: #66bfbf;
+  color: white !important;
+  padding-left: 1rem;
+}
+.navbar-toggler {
+  background-color: transparent !important;
+  border: none;
+}
+.offcanvas-header {
+  background-color: #66bfbf !important;
+}
+.offcanvas-title {
+  font-weight: bold;
+  color: white;
+}
+.offcanvas-body {
+  font-weight: normal;
+}
+/* Navbar end */
+
+/* Jumbrotron start */
+.text-1 {
+  letter-spacing: 0.1rem;
+}
+.text-2 {
+  letter-spacing: 0.05rem;
+}
+span {
+  color: #66bfbf;
+}
+/* Jumbrotron end */
+
+/* Carousel start */
+.carousel {
+  margin-top: -30px;
+  margin-bottom: 50px;
+}
+/* Carousel end */
+
+/* Footer start */
+.container-footer {
+  background-color: #66bfbf;
+  padding: 3rem 0 1rem;
+  text-align: center;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.footer a {
+  padding: 3rem;
+  opacity: 0.5;
+}
+.footer-link:hover {
+  opacity: 0.7;
+}
+/* Footer end */
+
+/* Modal start */
+.modal-header{
+  background-color: #66bfbf;
+  color: white;
+}
+.required:after {
+  content: " *";
+  color: red;
+}
+#message{
+  width: 500px;
+}
+
+/* Modal end */
